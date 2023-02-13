@@ -6,7 +6,8 @@
 ## 2. Create a Jenkins Server with all the dependencies, libraries and packagies needed.
 ## 2. Once completed, access the Jenkins server and Set it up
 ## 4. Run the jenkins-pipeline-deploy-to-eks to create Kubernetes Cluster, create deployments and Services
-## 5. Test that the application is running 
-## 6. Destroy infrastructure
+## 5. Test that the application is running (Go to load balancer and copy the dns name)
+## 6. Destroy infrastructure 
+## cd into jenkins-pipeline-deploy-to-eks-v2 then cd into terraform, do terraform init then terraform destroy.
 
 
